@@ -12,7 +12,7 @@ TEST_SRCS=$(TEST_DIR)/test_calc.c $(SRC_DIR)/add.c $(SRC_DIR)/sub.c $(SRC_DIR)/m
 all: $(TARGET)
 
 $(TARGET): $(SRCS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
+	 $(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
 
 test: $(TEST_TARGET)
 	./$(TEST_TARGET)
